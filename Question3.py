@@ -1,14 +1,17 @@
 # Question 3
 def exponential_function(x,y):
     return x**y
-pairs = [(2, 3), (4, 1), (3, -2)]
-resultList = []
-for x, y in pairs:
-    if y<0:
+# List of (x,y) pairs
+pairs = [[5, 2], [3, -1], [4, 3], [2, 0]]
+# List to store valid results
+result = []
+for x,y in pairs:
+    # Skip negative exponents
+    if y <0:
         continue
-    result = exponential_function(x,y)
-    resultList.append(result)
-print(resultList)
+    result.append(exponential_function(x,y))
+# Prints the result
+print(result)
 
 
 

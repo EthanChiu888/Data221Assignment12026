@@ -1,11 +1,11 @@
 # Question 1
-# Variable stores the threshold value
+# Stores the threshold value that the product must exceed
 thresholdValue = 100
-
-
+# Stores the running product of consecutive integers
 currentProduct = 1
+# Keeps track of the current integer being multiplied
 currentMultiplier = 1
-
+# Continues to loop as long as the product is less than or equal to the threshold value
 while currentProduct <= thresholdValue:
     currentMultiplier += 1
     currentProduct *= currentMultiplier
