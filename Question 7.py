@@ -8,12 +8,12 @@ def convert_Seconds_To_Time(secondsSinceMidnight):
     hours = secondsSinceMidnight // 3600
     minutes = (secondsSinceMidnight % 3600) // 60
     seconds = secondsSinceMidnight % 60
-    # Determines whether the time is AM or PM
+    # Determines whether the time is am or pm
     if hours < 12:
         period = "AM"
     else:
         period = "PM"
-    # Convert from 24-hour time to 12 hour time format
+    # Convert from 24-hour time to a 12 hour time format
     if hours == 0:
         hours = 12
     elif hours > 12:
