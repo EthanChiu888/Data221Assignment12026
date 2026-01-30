@@ -1,6 +1,4 @@
-# This program multiplies consecutive integers starting from 1
-# until the product becomes bigger than the threshold value
-
+# Question 1
 # Variable stores the threshold value
 thresholdValue = 100
 
