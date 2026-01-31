@@ -1,4 +1,5 @@
 # Question 1
+# This file multiplies consecutive integers starting from 1 until the product first becomes greater than a given threshold value
 # Stores the threshold value that the product must exceed
 thresholdValue = 100
 # Stores the running product of consecutive integers

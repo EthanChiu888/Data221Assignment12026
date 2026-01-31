@@ -1,4 +1,5 @@
 # Question 2
+# Function that analyzes a list of strings and returns their lengths and parity (even or odd).
 def string_length(stringList):
     resultDictionary = {}
     for string in stringList:

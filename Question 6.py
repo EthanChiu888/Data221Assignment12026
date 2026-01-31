@@ -1,4 +1,5 @@
 # Question 6
+# Creates a dictionary showing the percentage of values less than or equal to each unique number in a list.
 def percentageDictionary(numbers):
     resultDictionary = {}
     total_of_elements = len(numbers)

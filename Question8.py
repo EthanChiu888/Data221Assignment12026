@@ -1,3 +1,5 @@
+# Question 8
+# Creates a pandas DataFrame and adds a computed column derived from existing data.
 import pandas as pd
 
 data = {

@@ -1,4 +1,5 @@
 # Question 4
+# Sorts a list of random values and finds the first index where the value is greater than or equal to x.
 from random import random
 
 # Generate a list of 20 random numbers between 0 and 1

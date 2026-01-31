@@ -1,4 +1,5 @@
 # Question 3
+# Computes x^y for a list of (x, y) pairs, skipping any pairs with negative exponents.
 def exponential_function(x,y):
     return x**y
 # List of (x,y) pairs

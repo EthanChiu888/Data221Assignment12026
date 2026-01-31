@@ -1,4 +1,5 @@
 # Question 5
+#Calculates the percentage of the larger circle’s area that can be covered by the smaller circle, with input validation.
 import math
 
 def circleAreaCoverage(radiusOfCircle1, radiusOfCircle2):

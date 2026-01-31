@@ -1,5 +1,5 @@
 # Question 7
-
+# Converts seconds since midnight into hours, minutes, seconds, and AM/PM format.
 def convert_Seconds_To_Time(secondsSinceMidnight):
     # Validate that the input is within the valid range for a day
     if secondsSinceMidnight < 0 or secondsSinceMidnight > 86399:
